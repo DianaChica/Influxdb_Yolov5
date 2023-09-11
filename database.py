@@ -5,7 +5,7 @@ import logging
 
 def connect_to_db():
     """Connect to the InfluxDB database."""
-    client = InfluxDBClient(url="http://200.126.14.234:8086/", token="5KycwxL5zMvN7b4fzQpawwYz7fHeMTMW", org="detect")
+    client = InfluxDBClient(url="ip:port", "your_token", org="your_org")
 
     return client
 
